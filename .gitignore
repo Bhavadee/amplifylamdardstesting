@@ -1,0 +1,22 @@
+# Node / npm artifacts
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+frontend/dist/
+backend/dist/
+
+# Environment & secrets
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# Misc editor/OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.log
