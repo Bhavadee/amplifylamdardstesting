@@ -8,7 +8,7 @@ export type Todo = {
 const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL as string | undefined)?.replace(
   /\/$/,
   '',
-) ?? 'https://main.d24fy4n5wri5ef.amplifyapp.com';
+) ?? 'https://vuul6s6op1.execute-api.us-east-2.amazonaws.com';
 
 const buildUrl = (path: string) => `${API_BASE_URL}${path}`;
 
